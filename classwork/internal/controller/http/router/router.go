@@ -1,8 +1,8 @@
 package router
 
 import (
-	"rpractice/internal/controller/http/handler"
-	"rpractice/internal/usecase"
+	"classwork/internal/controller/http/handler"
+	"classwork/internal/usecase"
 
 	"github.com/gin-gonic/gin"
 )

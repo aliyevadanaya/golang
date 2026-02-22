@@ -3,7 +3,7 @@ package handler
 import (
 	"net/http"
 
-	"rpractice/internal/usecase"
+	"classwork/internal/usecase"
 
 	"github.com/gin-gonic/gin"
 )

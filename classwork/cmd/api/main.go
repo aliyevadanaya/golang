@@ -5,9 +5,9 @@ import (
 	"os"
 	"os/signal"
 
-	"rpractice/internal/controller/http/router"
-	"rpractice/internal/usecase"
-	"rpractice/pkg/httpServer"
+	"classwork/internal/controller/http/router"
+	"classwork/internal/usecase"
+	"classwork/pkg/httpServer"
 )
 
 func main() {
