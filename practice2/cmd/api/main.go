@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"net/http"
-
 	"practice2/internal/handlers"
+
 	"practice2/internal/middleware"
 )
 
@@ -30,7 +30,7 @@ func main() {
 
 		w.WriteHeader(http.StatusMethodNotAllowed)
 	})
-	
+
 	handler := middleware.Logger(
 		middleware.Auth(mux),
 	)
