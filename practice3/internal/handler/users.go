@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"net/http"
-	"rp2/internal/usecase"
-	"rp2/pkg/modules"
+	"practice3/internal/usecase"
+	"practice3/pkg/modules"
 	"strconv"
 )
 

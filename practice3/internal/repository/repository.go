@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"rp2/internal/repository/_postgres"
-	"rp2/internal/repository/_postgres/users"
-	"rp2/pkg/modules"
+	"practice3/internal/repository/_postgres"
+	"practice3/internal/repository/_postgres/users"
+	"practice3/pkg/modules"
 )
 
 type UserRepository interface {

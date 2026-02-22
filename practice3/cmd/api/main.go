@@ -1,8 +1,8 @@
 package main
 
 import (
-	_ "rp2/docs"
-	"rp2/internal/app"
+	_ "practice3/docs"
+	"practice3/internal/app"
 )
 
 // @title User API

@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"rp2/internal/repository"
-	"rp2/pkg/modules"
+	"practice3/internal/repository"
+	"practice3/pkg/modules"
 )
 
 type UserUsecase struct {

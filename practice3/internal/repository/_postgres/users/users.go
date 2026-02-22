@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"rp2/internal/repository/_postgres"
-	"rp2/pkg/modules"
+	"practice3/internal/repository/_postgres"
+	"practice3/pkg/modules"
 )
 
 type Repository struct {

@@ -7,14 +7,14 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"rp2/internal/handler"
-	"rp2/internal/middleware"
-	"rp2/internal/repository"
-	"rp2/internal/repository/_postgres"
-	"rp2/internal/usecase"
+	"practice3/internal/handler"
+	"practice3/internal/middleware"
+	"practice3/internal/repository"
+	"practice3/internal/repository/_postgres"
+	"practice3/internal/usecase"
 	"time"
 
-	"rp2/pkg/modules"
+	"practice3/pkg/modules"
 )
 
 func Run() {
